@@ -6,7 +6,7 @@
 
     <groupId>john.ragan</groupId>
     <artifactId>WordFind</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

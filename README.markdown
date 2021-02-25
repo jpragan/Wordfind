@@ -37,3 +37,9 @@ Instructions
         1. Since the results in the actual program are random, the unit tests will fail randomly.
 5. Added Maven dependency for gson.
 6. Added Maven dependency for httpclient.
+
+
+**v1.2: Notes**
+1. Updated index.js to check for words in a DynamoDB Dictionary. 
+    2. The dictionary only has words with 5 characters or less (~16,000)
+    
