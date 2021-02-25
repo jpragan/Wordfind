@@ -11,7 +11,7 @@ public class WordFind {
     public static void main(String[] args) {
 
         // String to be tested for all english word permutations.
-        String s = "work";
+        String s = "mngta";
 
         // Generate permutations
         Permutations.Permutation(s, "");
