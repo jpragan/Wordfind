@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="WordFind" options="--add-exports jdk.internal.vm.compiler/org.graalvm.compiler.graph=ALL-UNNAMED" />
+      <module name="WordFind" options="" />
     </option>
   </component>
 </project>
