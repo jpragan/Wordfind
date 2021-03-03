@@ -85,7 +85,9 @@ final class Dictionary {
        // CloseableHttpClient httpclient = HttpClients.createDefault();
 
         //Creating a HttpGet object
-     //   HttpGet httpget = new HttpGet("https://mfx2qgboid.execute-api.us-east-2.amazonaws.com/dictionary/checkword?word=" + word);
+
+       // HttpGet httpget = new HttpGet("https://.execute-api.us-east-2.amazonaws.com/dictionary/checkword?word=" + word);
+
 
         //Executing the Get request
        // HttpResponse httpresponse = httpclient.execute(httpget);
