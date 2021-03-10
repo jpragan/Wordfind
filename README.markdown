@@ -24,6 +24,13 @@ Instructions
 
 1. The input string itself does not need to be an english word.
 
+**v2.0: Notes - 3/4/2021**
+1. Integrated new rest API that makes call to database one time for all permutations.
+    1. Wordfind now makes a POST call with a JSON Array of all permutations instead of making a GET call for every single permutation.  
+
+**v1.2: Notes**
+1. Updated index.js to check for words in a DynamoDB Dictionary.
+    2. *The dictionary only has words with 5 characters or less (~16,000).*
 
 **v1.1: Notes**
 1. A bug was fixed where an empty string was being added to the permutation hashset.
