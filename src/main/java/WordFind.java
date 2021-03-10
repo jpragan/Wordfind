@@ -22,7 +22,7 @@ public class WordFind {
         String realwords = "";
 
         // String to be tested for all english word permutations.
-        String s = "wade";
+        String s = "mouth";
 
         // Generate permutations
         Permutations.Permutation(s, "");
@@ -49,9 +49,12 @@ public class WordFind {
             JsonElement Words = wordName.get(i).getAsJsonObject().get("Word");
             JsonElement isWords = wordName.get(i).getAsJsonObject().get("is_word");
             if (isWords.getAsBoolean()) {
+                JsonElement Definitions = wordName.get(i).getAsJsonObject().get("Definition");
                 String word = Words.getAsString();
+                String definition = Definitions.getAsString();
                 word = word.replace("\"", "");
-                realwords = realwords + "\n" + word;
+                definition = definition.replace("\"", "");
+                realwords = realwords + "\n" + word + " -" + definition + "\n";
             }
 
         }
